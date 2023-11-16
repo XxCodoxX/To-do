@@ -1,5 +1,8 @@
-/* .App {
-  font-family: sans-serif;
-  text-align: center;
-  background-color: rgb(99, 169, 240);
-} */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

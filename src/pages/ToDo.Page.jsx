@@ -67,10 +67,7 @@ const ToDoPage = () => {
     dispatch(addTaskList(taskList))
     
   }, [taskList])
-  
-  
 
-  console.log(taskList);
 
   return (
     <>

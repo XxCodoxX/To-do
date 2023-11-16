@@ -3,6 +3,7 @@ import ToDoPage from "./pages/ToDo.Page";
 import { persistStore } from "redux-persist";
 import { PersistGate } from "redux-persist/lib/integration/react";
 import { store } from "./Store";
+import "./app.css"
 
 function App() {
   const reduxPersistStore = persistStore(store);
