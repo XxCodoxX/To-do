@@ -1,4 +1,3 @@
-
 import {  combineReducers, configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import { persistReducer } from 'redux-persist';
@@ -10,6 +9,7 @@ const rootReducer = combineReducers({
 });
 
 const persistConfig = {
+  timeout: 100,
   key: 'redux-Data',
   storage,
 };
